@@ -1,0 +1,19 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px,1fr));
+    grid-gap:10px;
+    padding: 20px;
+  }
+
+  .gallery-item{
+    width: 100%;
+    height: 120px;
+    max-width: 100%;
+  }
+
+  
+@media (max-width:768px){
+    .gallery{
+        grid-template-columns:repeat(auto-ffill, minmax(150px,1fr));
+    }
+}  
