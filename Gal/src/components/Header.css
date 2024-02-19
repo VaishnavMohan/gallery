@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header-nav button {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .header-nav button:hover {
+    background-color: #f0f0f0;
+  }
+  

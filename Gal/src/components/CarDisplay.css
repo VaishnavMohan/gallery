@@ -1,0 +1,50 @@
+.car-display {
+    background-color: #cfe0e8;
+    padding: 2rem;
+    margin-top: 2rem;
+    position: relative;
+  }
+  
+  .car-info {
+    margin-bottom: 2rem;
+  }
+  
+  .car-title {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .car-description {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .car-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .car-select-btn {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .car-select-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .car-slider .slick-slide {
+    padding: 0.5rem;
+  }
+  
+  .car-miniatures {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
